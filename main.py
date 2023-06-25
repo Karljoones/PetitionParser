@@ -17,6 +17,8 @@ else:
 
 df = pd.read_json(petition_download_link)
 
+df.fillna(0)
+
 # Output dir
 output_directory = "./output"
 if not os.path.isdir(output_directory):
@@ -31,10 +33,19 @@ overview_filename = "overview.txt"
 overview_file_path = os.path.join(instance_directory, overview_filename)
 overview_output_file = open(overview_file_path, "w", encoding='utf-8')
 
-overview_output_file.write(f"Title: {df.get('data').get('attributes').get('action')} (ID: {df.get('data').get('id')}) \n\n")
-overview_output_file.write("State: " + df.get("data").get("attributes").get("state") + "\n")
-overview_output_file.write("Created at: " + df.get("data").get("attributes").get("created_at") + "\n")
-overview_output_file.write("Updated at: " + df.get("data").get("attributes").get("updated_at") + "\n")
+overview_output_file.write(f"Title: {df.get('data').get('attributes').get('action')} (ID: {df.get('data').get('id')}) \n")
+overview_output_file.write("\n-- Overview --\n")
+overview_output_file.write(f"State: {df.get('data').get('attributes').get('state')} \n")
+overview_output_file.write(f"Created: {df.get('data').get('attributes').get('created_at')} \n")
+overview_output_file.write(f"Updated: {df.get('data').get('attributes').get('updated_at')} \n")
+overview_output_file.write(f"Closed: {df.get('data').get('attributes').get('closed_at')} \n")
+
+if (df.get('data').get('attributes').get('debate').get('debated_on') != 0):
+    overview_output_file.write("\n-- Debated -- \n")
+    overview_output_file.write(f"Debate Date: {df.get('data').get('attributes').get('debate').get('debated_on')} \n")
+    overview_output_file.write(f"Transcription: {df.get('data').get('attributes').get('debate').get('transcript_url')} \n")
+    overview_output_file.write(f"Video URL: {df.get('data').get('attributes').get('debate').get('video_url')} \n")
+    overview_output_file.write(f"Debate Pack: {df.get('data').get('attributes').get('debate').get('debate_pack_url')} \n")
 
 ## Signatures by country
 signatures_by_country = pd.DataFrame(df.get("data").get("attributes").get("signatures_by_country"))
@@ -63,6 +74,7 @@ total_region_oceania = 0
 total_region_south_america = 0
 total_region_unknown = 0
 
+# Loop through the signatures, drop them into buckets depending on region
 for index, row in signatures_by_country.iterrows():
     if row.get("name") != "United Kingdom":
         total_signatures_outside_uk += row.get("signature_count")
