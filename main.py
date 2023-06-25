@@ -13,12 +13,18 @@ else:
 
 df = pd.read_json(petition_download_link)
 
+# Output dir
+output_directory = "./output"
+if not os.path.isdir(output_directory):
+    os.mkdir(output_directory)
+
+instance_directory = output_directory + "/" + str(df.get("data").get("id"))
+if not os.path.isdir(instance_directory):
+    os.mkdir(instance_directory)
+
 # Handle creating the directory, and opening the file using the petition ID
-overview_directory = "./output" + "/" + str(df.get("data").get("id"))
 overview_filename = "overview.txt"
-overview_file_path = os.path.join(overview_directory, overview_filename)
-if not os.path.isdir(overview_directory):
-    os.mkdir(overview_directory)
+overview_file_path = os.path.join(instance_directory, overview_filename)
 overview_output_file = open(overview_file_path, "w", encoding='utf-8')
 
 overview_output_file.write("Title: " + df.get("data").get("attributes").get("action") + "\n\n")
@@ -30,11 +36,8 @@ overview_output_file.write("Updated at: " + df.get("data").get("attributes").get
 signatures_by_country = pd.DataFrame(df.get("data").get("attributes").get("signatures_by_country"))
 
 # File creation
-sbc_directory = "./output" + "/" + str(df.get("data").get("id"))
 sbc_filename = "signatures_by_country.csv"
-sbc_file_path = os.path.join(sbc_directory, sbc_filename)
-if not os.path.isdir(sbc_directory):
-    os.mkdir(sbc_directory)
+sbc_file_path = os.path.join(instance_directory, sbc_filename)
 sbc_output_file = open(sbc_file_path, "w")
 
 ## Data writing
@@ -63,11 +66,8 @@ overview_output_file.write(f"Outside UK: {total_signatures_outside_uk} ({str(rou
 signatures_by_constituency = pd.DataFrame(df.get("data").get("attributes").get("signatures_by_constituency"))
 
 # File creation
-signatures_by_constituency_directory = "./output" + "/" + str(df.get("data").get("id"))
 signatures_by_constituency_filename = "signatures_by_constituency.csv"
-signatures_by_constituency_file_path = os.path.join(signatures_by_constituency_directory, signatures_by_constituency_filename)
-if not os.path.isdir(signatures_by_constituency_directory):
-    os.mkdir(signatures_by_constituency_directory)
+signatures_by_constituency_file_path = os.path.join(instance_directory, signatures_by_constituency_filename)
 signatures_by_constituency_output_file = open(signatures_by_constituency_file_path, "w")
 
 ## Data writing
@@ -83,11 +83,8 @@ del signatures_by_constituency
 signatures_by_region = pd.DataFrame(df.get("data").get("attributes").get("signatures_by_region"))
 
 # File creation
-signatures_by_region_directory = "./output" + "/" + str(df.get("data").get("id"))
 signatures_by_region_filename = "signatures_by_region.csv"
-signatures_by_region_file_path = os.path.join(signatures_by_region_directory, signatures_by_region_filename)
-if not os.path.isdir(signatures_by_region_directory):
-    os.mkdir(signatures_by_region_directory)
+signatures_by_region_file_path = os.path.join(instance_directory, signatures_by_region_filename)
 signatures_by_region_output_file = open(signatures_by_region_file_path, "w")
 
 ## Data writing
