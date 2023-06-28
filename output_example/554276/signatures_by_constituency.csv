@@ -1,0 +1,651 @@
+	name	ons_code	mp	signature_count
+0	Aldershot	E14000530	Leo Docherty MP	1385
+1	Aldridge-Brownhills	E14000531	Rt Hon Wendy Morton MP	983
+2	Altrincham and Sale West	E14000532	Sir Graham Brady MP	3697
+3	Amber Valley	E14000533	Nigel Mills MP	1068
+4	Arundel and South Downs	E14000534	Andrew Griffith MP	1707
+5	Ashfield	E14000535	Lee Anderson MP	1041
+6	Ashford	E14000536	Rt Hon Damian Green MP	1443
+7	Ashton-under-Lyne	E14000537	Rt Hon Angela Rayner MP	2218
+8	Aylesbury	E14000538	Rob Butler MP	1786
+9	Banbury	E14000539	Rt Hon Victoria Prentis MP	2013
+10	Barking	E14000540	Rt Hon Dame Margaret Hodge MP	1089
+11	Barnsley Central	E14000541	Dan Jarvis MP	1139
+12	Barnsley East	E14000542	Stephanie Peacock MP	1003
+13	Barrow and Furness	E14000543	Simon Fell MP	1875
+14	Basildon and Billericay	E14000544	Mr John Baron MP	1053
+15	Basingstoke	E14000545	Rt Hon Dame Maria Miller MP	1780
+16	Bassetlaw	E14000546	Brendan Clarke-Smith MP	1300
+17	Bath	E14000547	Wera Hobhouse MP	2827
+18	Batley and Spen	E14000548	Kim Leadbeater MP	1345
+19	Battersea	E14000549	Marsha De Cordova MP	2813
+20	Beaconsfield	E14000550	Joy Morrissey MP	1729
+21	Beckenham	E14000551	Rt Hon Bob Stewart MP	2148
+22	Bedford	E14000552	Mohammad Yasin MP	1621
+23	Bermondsey and Old Southwark	E14000553	Neil Coyle MP	2764
+24	Berwick-upon-Tweed	E14000554	Rt Hon Anne-Marie Trevelyan MP	1126
+25	Bethnal Green and Bow	E14000555	Rushanara Ali MP	3117
+26	Beverley and Holderness	E14000556	Rt Hon Graham Stuart MP	1331
+27	Bexhill and Battle	E14000557	Huw Merriman MP	1396
+28	Bexleyheath and Crayford	E14000558	Rt Hon Sir David Evennett MP	1084
+29	Birkenhead	E14000559	Mick Whitley MP	2510
+30	Birmingham, Edgbaston	E14000560	Preet Kaur Gill MP	1600
+31	Birmingham, Erdington	E14000561	Mrs Paulette Hamilton MP	1102
+32	Birmingham, Hall Green	E14000562	Tahir Ali MP	1826
+33	Birmingham, Hodge Hill	E14000563	Rt Hon Liam Byrne MP	826
+34	Birmingham, Ladywood	E14000564	Shabana Mahmood MP	1330
+35	Birmingham, Northfield	E14000565	Gary Sambrook MP	1583
+36	Birmingham, Perry Barr	E14000566	Mr Khalid Mahmood MP	1017
+37	Birmingham, Selly Oak	E14000567	Steve McCabe MP	2368
+38	Birmingham, Yardley	E14000568	Jess Phillips MP	1083
+39	Bishop Auckland	E14000569	Dehenna Davison MP	1123
+40	Blackburn	E14000570	Kate Hollern MP	1292
+41	Blackley and Broughton	E14000571	Graham Stringer MP	1921
+42	Blackpool North and Cleveleys	E14000572	Paul Maynard MP	1380
+43	Blackpool South	E14000573	Scott Benton MP	1298
+44	Blaydon	E14000574	Liz Twist MP	1590
+45	Blyth Valley	E14000575	Ian Levy MP	1174
+46	Bognor Regis and Littlehampton	E14000576	Rt Hon Nick Gibb MP	1174
+47	Bolsover	E14000577	Mark Fletcher MP	1213
+48	Bolton North East	E14000578	Mark Logan MP	1620
+49	Bolton South East	E14000579	Yasmin Qureshi MP	1375
+50	Bolton West	E14000580	Chris Green MP	1915
+51	Bootle	E14000581	Peter Dowd MP	3403
+52	Boston and Skegness	E14000582	Matt Warman MP	642
+53	Bosworth	E14000583	Dr Luke Evans MP	1379
+54	Bournemouth East	E14000584	Rt Hon Tobias Ellwood MP	1653
+55	Bournemouth West	E14000585	Rt Hon Sir Conor Burns MP	1390
+56	Bracknell	E14000586	James Sunderland MP	1585
+57	Bradford East	E14000587	Imran Hussain MP	1290
+58	Bradford South	E14000588	Judith Cummins MP	1341
+59	Bradford West	E14000589	Naz Shah MP	1157
+60	Braintree	E14000590	Rt Hon James Cleverly MP	1294
+61	Brent Central	E14000591	Dawn Butler MP	1719
+62	Brent North	E14000592	Barry Gardiner MP	1220
+63	Brentford and Isleworth	E14000593	Ruth Cadbury MP	2514
+64	Brentwood and Ongar	E14000594	Alex Burghart MP	1467
+65	Bridgwater and West Somerset	E14000595	Mr Ian Liddell-Grainger MP	1200
+66	Brigg and Goole	E14000596	Andrew Percy MP	893
+67	Brighton, Kemptown	E14000597	Lloyd Russell-Moyle MP	2312
+68	Brighton, Pavilion	E14000598	Caroline Lucas MP	4342
+69	Bristol East	E14000599	Kerry McCarthy MP	2203
+70	Bristol North West	E14000600	Darren Jones MP	2190
+71	Bristol South	E14000601	Karin Smyth MP	2787
+72	Bristol West	E14000602	Thangam Debbonaire MP	4796
+73	Broadland	E14000603	Jerome Mayhew MP	1378
+74	Bromley and Chislehurst	E14000604	Sir Robert Neill MP	1824
+75	Bromsgrove	E14000605	Rt Hon Sajid Javid MP	1581
+76	Broxbourne	E14000606	Sir Charles Walker MP	1281
+77	Broxtowe	E14000607	Darren Henry MP	2048
+78	Buckingham	E14000608	Greg Smith MP	1918
+79	Burnley	E14000609	Antony Higginbotham MP	1238
+80	Burton	E14000610	Kate Kniveton MP	1081
+81	Bury North	E14000611	James Daly MP	2209
+82	Bury South	E14000612	Christian Wakeford MP	2969
+83	Bury St Edmunds	E14000613	Jo Churchill MP	1791
+84	Calder Valley	E14000614	Rt Hon Craig Whittaker MP	2655
+85	Camberwell and Peckham	E14000615	Rt Hon Harriet Harman KC MP	3329
+86	Camborne and Redruth	E14000616	Rt Hon George Eustice MP	1143
+87	Cambridge	E14000617	Daniel Zeichner MP	2970
+88	Cannock Chase	E14000618	Rt Hon Dame Amanda Milling MP	1038
+89	Canterbury	E14000619	Rosie Duffield MP	2360
+90	Carlisle	E14000620	John Stevenson MP	1418
+91	Carshalton and Wallington	E14000621	Elliot Colburn MP	1790
+92	Castle Point	E14000622	Rebecca Harris MP	987
+93	Central Devon	E14000623	Rt Hon Mel Stride MP	1480
+94	Central Suffolk and North Ipswich	E14000624	Dr Dan Poulter MP	1244
+95	Charnwood	E14000625	Rt Hon Edward Argar MP	1437
+96	Chatham and Aylesford	E14000626	Tracey Crouch MP	933
+97	Cheadle	E14000627	Mary Robinson MP	3258
+98	Chelmsford	E14000628	Rt Hon Vicky Ford MP	2094
+99	Chelsea and Fulham	E14000629	Rt Hon Greg Hands MP	1745
+100	Cheltenham	E14000630	Alex Chalk KC MP	2210
+101	Chesham and Amersham	E14000631	Sarah Green MP	1862
+102	Chesterfield	E14000632	Mr Toby Perkins MP	1455
+103	Chichester	E14000633	Gillian Keegan MP	1601
+104	Chingford and Woodford Green	E14000634	Rt Hon Sir Iain Duncan Smith MP	1852
+105	Chippenham	E14000635	Rt Hon Michelle Donelan MP	1973
+106	Chipping Barnet	E14000636	Rt Hon Theresa Villiers MP	2656
+107	Chorley	E14000637	Rt Hon Sir Lindsay Hoyle MP	2069
+108	Christchurch	E14000638	Sir Christopher Chope MP	1015
+109	Cities of London and Westminster	E14000639	Nickie Aiken MP	2187
+110	City of Chester	E14000640	Samantha Dixon MP	2501
+111	City of Durham	E14000641	Mary Kelly Foy MP	1766
+112	Clacton	E14000642	Giles Watling MP	791
+113	Cleethorpes	E14000643	Martin Vickers MP	963
+114	Colchester	E14000644	Will Quince MP	2253
+115	Colne Valley	E14000645	Jason McCartney MP	2294
+116	Congleton	E14000646	Fiona Bruce MP	2098
+117	Copeland	E14000647	Trudy Harrison MP	1365
+118	Corby	E14000648	Tom Pursglove MP	1622
+119	Coventry North East	E14000649	Colleen Fletcher MP	1557
+120	Coventry North West	E14000650	Taiwo Owatemi MP	1840
+121	Coventry South	E14000651	Zarah Sultana MP	1728
+122	Crawley	E14000652	Henry Smith MP	1376
+123	Crewe and Nantwich	E14000653	Dr Kieran Mullan MP	1838
+124	Croydon Central	E14000654	Sarah Jones MP	1836
+125	Croydon North	E14000655	Steve Reed MP	2178
+126	Croydon South	E14000656	Rt Hon Chris Philp MP	2158
+127	Dagenham and Rainham	E14000657	Jon Cruddas MP	845
+128	Darlington	E14000658	Peter Gibson MP	1428
+129	Dartford	E14000659	Gareth Johnson MP	1367
+130	Daventry	E14000660	Rt Hon Chris Heaton-Harris MP	1531
+131	Denton and Reddish	E14000661	Andrew Gwynne MP	2531
+132	Derby North	E14000662	Amanda Solloway MP	1616
+133	Derby South	E14000663	Rt Hon Margaret Beckett MP	1142
+134	Derbyshire Dales	E14000664	Miss Sarah Dines MP	1507
+135	Devizes	E14000665	Danny Kruger MP	1371
+136	Dewsbury	E14000666	Mark Eastwood MP	1486
+137	Don Valley	E14000667	Nick Fletcher MP	1051
+138	Doncaster Central	E14000668	Rt Hon Dame Rosie Winterton MP	1116
+139	Doncaster North	E14000669	Rt Hon Edward Miliband MP	984
+140	Dover	E14000670	Mrs Natalie Elphicke MP	1380
+141	Dudley North	E14000671	Marco Longhi MP	747
+142	Dudley South	E14000672	Mike Wood MP	702
+143	Dulwich and West Norwood	E14000673	Helen Hayes MP	3909
+144	Ealing Central and Acton	E14000674	Dr Rupa Huq MP	2646
+145	Ealing North	E14000675	James Murray MP	1505
+146	Ealing, Southall	E14000676	Mr Virendra Sharma MP	1458
+147	Easington	E14000677	Grahame Morris MP	904
+148	East Devon	E14000678	Simon Jupp MP	1638
+149	East Ham	E14000679	Rt Hon Sir Stephen Timms MP	1264
+150	East Hampshire	E14000680	Rt Hon Damian Hinds MP	1500
+151	East Surrey	E14000681	Claire Coutinho MP	1822
+152	East Worthing and Shoreham	E14000682	Tim Loughton MP	1906
+153	East Yorkshire	E14000683	Rt Hon Sir Greg Knight MP	1191
+154	Eastbourne	E14000684	Caroline Ansell MP	1521
+155	Eastleigh	E14000685	Paul Holmes MP	1593
+156	Eddisbury	E14000686	Edward Timpson KC MP	1702
+157	Edmonton	E14000687	Kate Osamor MP	1090
+158	Ellesmere Port and Neston	E14000688	Justin Madders MP	1989
+159	Elmet and Rothwell	E14000689	Rt Hon Alec Shelbrooke MP	1985
+160	Eltham	E14000690	Clive Efford MP	1645
+161	Enfield North	E14000691	Feryal Clark MP	1572
+162	Enfield, Southgate	E14000692	Bambos Charalambous MP	1977
+163	Epping Forest	E14000693	Rt Hon Dame Eleanor Laing MP	1625
+164	Epsom and Ewell	E14000694	Rt Hon Chris Grayling MP	2027
+165	Erewash	E14000695	Maggie Throup MP	1386
+166	Erith and Thamesmead	E14000696	Abena Oppong-Asare MP	1046
+167	Esher and Walton	E14000697	Rt Hon Dominic Raab MP	2371
+168	Exeter	E14000698	Rt Hon Ben Bradshaw MP	2068
+169	Fareham	E14000699	Rt Hon Suella Braverman KC MP	1466
+170	Faversham and Mid Kent	E14000700	Helen Whately MP	1351
+171	Feltham and Heston	E14000701	Seema Malhotra MP	1149
+172	Filton and Bradley Stoke	E14000702	Jack Lopresti MP	1814
+173	Finchley and Golders Green	E14000703	Mike Freer MP	2535
+174	Folkestone and Hythe	E14000704	Damian Collins MP	1549
+175	Forest of Dean	E14000705	Rt Hon Mark Harper MP	1213
+176	Fylde	E14000706	Mark Menzies MP	1762
+177	Gainsborough	E14000707	Rt Hon Sir Edward Leigh MP	1324
+178	Garston and Halewood	E14000708	Rt Hon Maria Eagle MP	3353
+179	Gateshead	E14000709	Ian Mearns MP	1788
+180	Gedling	E14000710	Tom Randall MP	2192
+181	Gillingham and Rainham	E14000711	Rehman Chishti MP	1068
+182	Gloucester	E14000712	Richard Graham MP	1558
+183	Gosport	E14000713	Dame Caroline Dinenage MP	1198
+184	Grantham and Stamford	E14000714	Gareth Davies MP	1473
+185	Gravesham	E14000715	Adam Holloway MP	1099
+186	Great Grimsby	E14000716	Lia Nici MP	835
+187	Great Yarmouth	E14000717	Rt Hon Sir Brandon Lewis MP	964
+188	Greenwich and Woolwich	E14000718	Matthew Pennycook MP	2592
+189	Guildford	E14000719	Angela Richardson MP	2064
+190	Hackney North and Stoke Newington	E14000720	Rt Hon Diane Abbott MP	3641
+191	Hackney South and Shoreditch	E14000721	Dame Meg Hillier MP	3198
+192	Halesowen and Rowley Regis	E14000722	James Morris MP	1133
+193	Halifax	E14000723	Holly Lynch MP	1753
+194	Haltemprice and Howden	E14000724	Rt Hon David Davis MP	1278
+195	Halton	E14000725	Derek Twigg MP	2324
+196	Hammersmith	E14000726	Andy Slaughter MP	2326
+197	Hampstead and Kilburn	E14000727	Tulip Siddiq MP	2862
+198	Harborough	E14000728	Neil O'Brien MP	1793
+199	Harlow	E14000729	Rt Hon Robert Halfon MP	1208
+200	Harrogate and Knaresborough	E14000730	Andrew Jones MP	2068
+201	Harrow East	E14000731	Bob Blackman MP	1154
+202	Harrow West	E14000732	Gareth Thomas MP	1485
+203	Hartlepool	E14000733	Jill Mortimer MP	1331
+204	Harwich and North Essex	E14000734	Sir Bernard Jenkin MP	1565
+205	Hastings and Rye	E14000735	Sally-Ann Hart MP	1790
+206	Havant	E14000736	Alan Mak MP	1016
+207	Hayes and Harlington	E14000737	Rt Hon John McDonnell MP	963
+208	Hazel Grove	E14000738	Mr William Wragg MP	2506
+209	Hemel Hempstead	E14000739	Rt Hon Sir Mike Penning MP	1863
+210	Hemsworth	E14000740	Jon Trickett MP	1288
+211	Hendon	E14000741	Dr Matthew Offord MP	1526
+212	Henley	E14000742	John Howell MP	1966
+213	Hereford and South Herefordshire	E14000743	Rt Hon Jesse Norman MP	1239
+214	Hertford and Stortford	E14000744	Julie Marson MP	2419
+215	Hertsmere	E14000745	Rt Hon Oliver Dowden MP	1646
+216	Hexham	E14000746	Guy Opperman MP	1507
+217	Heywood and Middleton	E14000747	Chris Clarkson MP	2731
+218	High Peak	E14000748	Robert Largan MP	2657
+219	Hitchin and Harpenden	E14000749	Bim Afolami MP	2585
+220	Holborn and St Pancras	E14000750	Rt Hon Keir Starmer MP	3128
+221	Hornchurch and Upminster	E14000751	Julia Lopez MP	1349
+222	Hornsey and Wood Green	E14000752	Catherine West MP	4489
+223	Horsham	E14000753	Rt Hon Jeremy Quin MP	2007
+224	Houghton and Sunderland South	E14000754	Bridget Phillipson MP	1153
+225	Hove	E14000755	Peter Kyle MP	3596
+226	Huddersfield	E14000756	Mr Barry Sheerman MP	1634
+227	Huntingdon	E14000757	Mr Jonathan Djanogly MP	1860
+228	Hyndburn	E14000758	Sara Britcliffe MP	1776
+229	Ilford North	E14000759	Wes Streeting MP	1411
+230	Ilford South	E14000760	Sam Tarry MP	1160
+231	Ipswich	E14000761	Tom Hunt MP	1628
+232	Isle of Wight	E14000762	Bob Seely MP	1667
+233	Islington North	E14000763	Rt Hon Jeremy Corbyn MP	3739
+234	Islington South and Finsbury	E14000764	Rt Hon Emily Thornberry MP	2703
+235	Jarrow	E14000765	Kate Osborne MP	1624
+236	Keighley	E14000766	Robbie Moore MP	1768
+237	Kenilworth and Southam	E14000767	Rt Hon Sir Jeremy Wright KC MP	1583
+238	Kensington	E14000768	Felicity Buchan MP	1617
+239	Kettering	E14000769	Mr Philip Hollobone MP	1326
+240	Kingston and Surbiton	E14000770	Rt Hon Ed Davey MP	2671
+241	Kingston upon Hull East	E14000771	Karl Turner MP	851
+242	Kingston upon Hull North	E14000772	Rt Hon Dame Diana Johnson MP	1389
+243	Kingston upon Hull West and Hessle	E14000773	Emma Hardy MP	985
+244	Kingswood	E14000774	Rt Hon Chris Skidmore MP	1581
+245	Knowsley	E14000775	Rt Hon Sir George Howarth MP	2781
+246	Lancaster and Fleetwood	E14000776	Cat Smith MP	2097
+247	Leeds Central	E14000777	Rt Hon Hilary Benn MP	2443
+248	Leeds East	E14000778	Richard Burgon MP	1246
+249	Leeds North East	E14000779	Fabian Hamilton MP	2898
+250	Leeds North West	E14000780	Alex Sobel MP	2652
+251	Leeds West	E14000781	Rt Hon Rachel Reeves MP	2123
+252	Leicester East	E14000782	Claudia Webbe MP	1013
+253	Leicester South	E14000783	Rt Hon Jonathan Ashworth MP	1853
+254	Leicester West	E14000784	Liz Kendall MP	1134
+255	Leigh	E14000785	James Grundy MP	1997
+256	Lewes	E14000786	Maria Caulfield MP	1843
+257	Lewisham East	E14000787	Janet Daby MP	2272
+258	Lewisham West and Penge	E14000788	Ellie Reeves MP	3316
+259	Lewisham, Deptford	E14000789	Vicky Foxcroft MP	3710
+260	Leyton and Wanstead	E14000790	John Cryer MP	2438
+261	Lichfield	E14000791	Michael Fabricant MP	1591
+262	Lincoln	E14000792	Karl McCartney MP	2083
+263	Liverpool, Riverside	E14000793	Kim Johnson MP	4328
+264	Liverpool, Walton	E14000794	Dan Carden MP	2602
+265	Liverpool, Wavertree	E14000795	Paula Barker MP	3101
+266	Liverpool, West Derby	E14000796	Ian Byrne MP	2712
+267	Loughborough	E14000797	Jane Hunt MP	1694
+268	Louth and Horncastle	E14000798	Victoria Atkins MP	905
+269	Ludlow	E14000799	Rt Hon Philip Dunne MP	1249
+270	Luton North	E14000800	Sarah Owen MP	970
+271	Luton South	E14000801	Rachel Hopkins MP	1088
+272	Macclesfield	E14000802	David Rutley MP	2715
+273	Maidenhead	E14000803	Rt Hon Theresa May MP	2117
+274	Maidstone and The Weald	E14000804	Mrs Helen Grant MP	1475
+275	Makerfield	E14000805	Yvonne Fovargue MP	1618
+276	Maldon	E14000806	Sir John Whittingdale MP	1114
+277	Manchester Central	E14000807	Lucy Powell MP	4006
+278	Manchester, Gorton	E14000808	Afzal Khan MP	2686
+279	Manchester, Withington	E14000809	Jeff Smith MP	5226
+280	Mansfield	E14000810	Ben Bradley MP	1202
+281	Meon Valley	E14000811	Mrs Flick Drummond MP	1168
+282	Meriden	E14000812	Saqib Bhatti MP	1647
+283	Mid Bedfordshire	E14000813	Rt Hon Nadine Dorries MP	1858
+284	Mid Derbyshire	E14000814	Mrs Pauline Latham MP	1536
+285	Mid Dorset and North Poole	E14000815	Michael Tomlinson MP	1069
+286	Mid Norfolk	E14000816	George Freeman MP	1313
+287	Mid Sussex	E14000817	Mims Davies MP	2202
+288	Mid Worcestershire	E14000818	Nigel Huddleston MP	1246
+289	Middlesbrough	E14000819	Andy McDonald MP	1074
+290	Middlesbrough South and East Cleveland	E14000820	Rt Hon Sir Simon Clarke MP	1164
+291	Milton Keynes North	E14000821	Ben Everitt MP	2013
+292	Milton Keynes South	E14000822	Iain Stewart MP	1909
+293	Mitcham and Morden	E14000823	Siobhain McDonagh MP	1586
+294	Mole Valley	E14000824	Sir Paul Beresford MP	1603
+295	Morecambe and Lunesdale	E14000825	David Morris MP	1695
+296	Morley and Outwood	E14000826	Dame Andrea Jenkyns MP	1897
+297	New Forest East	E14000827	Rt Hon Sir Julian Lewis MP	1143
+298	New Forest West	E14000828	Rt Hon Sir Desmond Swayne MP	1007
+299	Newark	E14000829	Rt Hon Robert Jenrick MP	1704
+300	Newbury	E14000830	Laura Farris MP	1744
+301	Newcastle upon Tyne Central	E14000831	Chi Onwurah MP	1671
+302	Newcastle upon Tyne East	E14000832	Rt Hon Nicholas Brown MP	2552
+303	Newcastle upon Tyne North	E14000833	Catherine McKinnell MP	1830
+304	Newcastle-under-Lyme	E14000834	Aaron Bell MP	1350
+305	Newton Abbot	E14000835	Anne Marie Morris MP	1246
+306	Normanton, Pontefract and Castleford	E14000836	Rt Hon Yvette Cooper MP	1299
+307	North Cornwall	E14000837	Scott Mann MP	1155
+308	North Devon	E14000838	Selaine Saxby MP	1451
+309	North Dorset	E14000839	Simon Hoare MP	1149
+310	North Durham	E14000840	Rt Hon Kevan Jones MP	1236
+311	North East Bedfordshire	E14000841	Richard Fuller MP	1829
+312	North East Cambridgeshire	E14000842	Rt Hon Steve Barclay MP	1020
+313	North East Derbyshire	E14000843	Lee Rowley MP	1400
+314	North East Hampshire	E14000844	Rt Hon Ranil Jayawardena MP	1741
+315	North East Hertfordshire	E14000845	Rt Hon Sir Oliver Heald KC MP	1805
+316	North East Somerset	E14000846	Rt Hon Sir Jacob Rees-Mogg MP	1710
+317	North Herefordshire	E14000847	Sir Bill Wiggin MP	1110
+318	North Norfolk	E14000848	Duncan Baker MP	987
+319	North Shropshire	E14000849	Helen Morgan MP	1362
+320	North Somerset	E14000850	Rt Hon Dr Liam Fox MP	2078
+321	North Swindon	E14000851	Justin Tomlinson MP	1375
+322	North Thanet	E14000852	Rt Hon Sir Roger Gale MP	1209
+323	North Tyneside	E14000853	Mary Glindon MP	1828
+324	North Warwickshire	E14000854	Craig Tracey MP	1157
+325	North West Cambridgeshire	E14000855	Rt Hon Shailesh Vara MP	1748
+326	North West Durham	E14000856	Mr Richard Holden MP	1434
+327	North West Hampshire	E14000857	Rt Hon Kit Malthouse MP	1609
+328	North West Leicestershire	E14000858	Andrew Bridgen MP	1278
+329	North West Norfolk	E14000859	James Wild MP	940
+330	North Wiltshire	E14000860	James Gray MP	1515
+331	Northampton North	E14000861	Rt Hon Sir Michael  Ellis MP	1302
+332	Northampton South	E14000862	Andrew Lewer MP	1259
+333	Norwich North	E14000863	Rt Hon Chloe Smith MP	1609
+334	Norwich South	E14000864	Clive Lewis MP	2495
+335	Nottingham East	E14000865	Nadia Whittome MP	1998
+336	Nottingham North	E14000866	Alex Norris MP	1062
+337	Nottingham South	E14000867	Lilian Greenwood MP	1810
+338	Nuneaton	E14000868	Rt Hon Marcus Jones MP	1275
+339	Old Bexley and Sidcup	E14000869	Mr Louie French MP	1343
+340	Oldham East and Saddleworth	E14000870	Debbie Abrahams MP	1900
+341	Oldham West and Royton	E14000871	Jim McMahon MP	1811
+342	Orpington	E14000872	Gareth Bacon MP	1418
+343	Oxford East	E14000873	Anneliese Dodds MP	2629
+344	Oxford West and Abingdon	E14000874	Layla Moran MP	2446
+345	Pendle	E14000875	Rt Hon Andrew Stephenson MP	1033
+346	Penistone and Stocksbridge	E14000876	Miriam Cates MP	1579
+347	Penrith and The Border	E14000877	Dr Neil Hudson MP	1379
+348	Peterborough	E14000878	Paul Bristow MP	1169
+349	Plymouth, Moor View	E14000879	Rt Hon Johnny Mercer MP	959
+350	Plymouth, Sutton and Devonport	E14000880	Luke Pollard MP	1895
+351	Poole	E14000881	Sir Robert Syms MP	1353
+352	Poplar and Limehouse	E14000882	Apsana Begum MP	2381
+353	Portsmouth North	E14000883	Rt Hon Penny Mordaunt MP	1222
+354	Portsmouth South	E14000884	Stephen Morgan MP	1851
+355	Preston	E14000885	Sir Mark Hendrick MP	1511
+356	Pudsey	E14000886	Rt Hon Stuart Andrew MP	2691
+357	Putney	E14000887	Fleur Anderson MP	2344
+358	Rayleigh and Wickford	E14000888	Rt Hon Mark Francois MP	1329
+359	Reading East	E14000889	Matt Rodda MP	2487
+360	Reading West	E14000890	Rt Hon Sir Alok Sharma MP	1912
+361	Redcar	E14000891	Jacob Young MP	975
+362	Redditch	E14000892	Rachel Maclean MP	1118
+363	Reigate	E14000893	Crispin Blunt MP	1893
+364	Ribble Valley	E14000894	Rt Hon Nigel Evans MP	1967
+365	Richmond (Yorks)	E14000895	Rt Hon Rishi Sunak MP	1426
+366	Richmond Park	E14000896	Sarah Olney MP	3099
+367	Rochdale	E14000897	Tony Lloyd MP	1533
+368	Rochester and Strood	E14000898	Rt Hon Kelly Tolhurst MP	1310
+369	Rochford and Southend East	E14000899	Sir James Duddridge MP	1440
+370	Romford	E14000900	Andrew Rosindell MP	1220
+371	Romsey and Southampton North	E14000901	Rt Hon Caroline Nokes MP	1401
+372	Rossendale and Darwen	E14000902	Sir Jake Berry MP	1946
+373	Rother Valley	E14000903	Alexander Stafford MP	1258
+374	Rotherham	E14000904	Sarah Champion MP	887
+375	Rugby	E14000905	Mark Pawsey MP	1565
+376	Ruislip, Northwood and Pinner	E14000906	David Simmonds MP	1718
+377	Runnymede and Weybridge	E14000907	Dr Ben Spencer MP	1615
+378	Rushcliffe	E14000908	Ruth Edwards MP	2660
+379	Rutland and Melton	E14000909	Alicia Kearns MP	1551
+380	Saffron Walden	E14000910	Rt Hon Kemi Badenoch MP	1941
+381	Salford and Eccles	E14000911	Rebecca Long Bailey MP	3628
+382	Salisbury	E14000912	Rt Hon John Glen MP	1685
+383	Scarborough and Whitby	E14000913	Sir Robert Goodwill MP	1230
+384	Scunthorpe	E14000914	Holly Mumby-Croft MP	977
+385	Sedgefield	E14000915	Paul Howell MP	1025
+386	Sefton Central	E14000916	Bill Esterson MP	2721
+387	Selby and Ainsty	E14000917		1533
+388	Sevenoaks	E14000918	Laura Trott MP	1517
+389	Sheffield Central	E14000919	Paul Blomfield MP	3217
+390	Sheffield South East	E14000920	Mr Clive Betts MP	1133
+391	Sheffield, Brightside and Hillsborough	E14000921	Gill Furniss MP	1329
+392	Sheffield, Hallam	E14000922	Olivia Blake MP	2909
+393	Sheffield, Heeley	E14000923	Louise Haigh MP	1949
+394	Sherwood	E14000924	Rt Hon Mark Spencer MP	1450
+395	Shipley	E14000925	Philip Davies MP	2478
+396	Shrewsbury and Atcham	E14000926	Daniel Kawczynski MP	1869
+397	Sittingbourne and Sheppey	E14000927	Gordon Henderson MP	1037
+398	Skipton and Ripon	E14000928	Rt Hon Julian Smith MP	1720
+399	Sleaford and North Hykeham	E14000929	Dr Caroline Johnson MP	1634
+400	Slough	E14000930	Mr Tanmanjeet Singh Dhesi MP	1275
+401	Solihull	E14000931	Julian Knight MP	1802
+402	Somerton and Frome	E14000932		1820
+403	South Basildon and East Thurrock	E14000933	Stephen Metcalfe MP	1066
+404	South Cambridgeshire	E14000934	Anthony Browne MP	2592
+405	South Derbyshire	E14000935	Mrs Heather Wheeler MP	1299
+406	South Dorset	E14000936	Richard Drax MP	1283
+407	South East Cambridgeshire	E14000937	Rt Hon Lucy Frazer KC MP	2371
+408	South East Cornwall	E14000938	Mrs Sheryll Murray MP	1297
+409	South Holland and The Deepings	E14000939	Rt Hon Sir John Hayes MP	843
+410	South Leicestershire	E14000940	Alberto Costa MP	1725
+411	South Norfolk	E14000941	Mr Richard Bacon MP	1631
+412	South Northamptonshire	E14000942	Rt Hon Andrea Leadsom MP	1876
+413	South Ribble	E14000943	Katherine Fletcher MP	1890
+414	South Shields	E14000944	Mrs Emma Lewell-Buck MP	1396
+415	South Staffordshire	E14000945	Rt Hon Sir Gavin Williamson MP	1069
+416	South Suffolk	E14000946	James Cartlidge MP	1394
+417	South Swindon	E14000947	Rt Hon Sir Robert Buckland KC MP	1435
+418	South Thanet	E14000948	Craig Mackinlay MP	1427
+419	South West Bedfordshire	E14000949	Andrew Selous MP	1639
+420	South West Devon	E14000950	Sir Gary Streeter MP	1209
+421	South West Hertfordshire	E14000951	Mr Gagan Mohindra MP	2275
+422	South West Norfolk	E14000952	Rt Hon Elizabeth Truss MP	1019
+423	South West Surrey	E14000953	Rt Hon Jeremy Hunt MP	2029
+424	South West Wiltshire	E14000954	Rt Hon Dr Andrew Murrison MP	1395
+425	Southampton, Itchen	E14000955	Royston Smith MP	1623
+426	Southampton, Test	E14000956	Dr Alan Whitehead MP	1639
+427	Southend West	E14000957	Anna Firth MP	1719
+428	Southport	E14000958	Damien Moore MP	2182
+429	Spelthorne	E14000959	Rt Hon Kwasi Kwarteng MP	1495
+430	St Albans	E14000960	Daisy Cooper MP	2893
+431	St Austell and Newquay	E14000961	Steve Double MP	1326
+432	St Helens North	E14000962	Conor McGinn MP	2137
+433	St Helens South and Whiston	E14000963	Ms Marie Rimmer MP	2290
+434	St Ives	E14000964	Derek Thomas MP	1418
+435	Stafford	E14000965	Theo Clarke MP	1498
+436	Staffordshire Moorlands	E14000966	Rt Hon Karen Bradley MP	1218
+437	Stalybridge and Hyde	E14000967	Jonathan Reynolds MP	2512
+438	Stevenage	E14000968	Rt Hon Stephen McPartland MP	1382
+439	Stockport	E14000969	Navendu Mishra MP	3095
+440	Stockton North	E14000970	Alex Cunningham MP	1160
+441	Stockton South	E14000971	Matt Vickers MP	1564
+442	Stoke-on-Trent Central	E14000972	Jo Gideon MP	1091
+443	Stoke-on-Trent North	E14000973	Jonathan Gullis MP	1086
+444	Stoke-on-Trent South	E14000974	Jack Brereton MP	1019
+445	Stone	E14000975	Sir William Cash MP	1141
+446	Stourbridge	E14000976	Suzanne Webb MP	1105
+447	Stratford-on-Avon	E14000977	Rt Hon Nadhim Zahawi MP	1594
+448	Streatham	E14000978	Bell Ribeiro-Addy MP	3530
+449	Stretford and Urmston	E14000979	Andrew Western MP	3727
+450	Stroud	E14000980	Siobhan Baillie MP	2088
+451	Suffolk Coastal	E14000981	Rt Hon Dr Thérèse Coffey MP	1427
+452	Sunderland Central	E14000982	Julie Elliott MP	1461
+453	Surrey Heath	E14000983	Rt Hon Michael Gove MP	1623
+454	Sutton and Cheam	E14000984	Paul Scully MP	1791
+455	Sutton Coldfield	E14000985	Rt Hon Andrew Mitchell MP	1861
+456	Tamworth	E14000986	Rt Hon Christopher Pincher MP	1055
+457	Tatton	E14000987	Rt Hon Esther McVey MP	2266
+458	Taunton Deane	E14000988	Rebecca Pow MP	1614
+459	Telford	E14000989	Lucy Allan MP	1041
+460	Tewkesbury	E14000990	Mr Laurence Robertson MP	1733
+461	The Cotswolds	E14000991	Sir Geoffrey Clifton-Brown MP	1681
+462	The Wrekin	E14000992	Rt Hon Mark Pritchard MP	1207
+463	Thirsk and Malton	E14000993	Kevin Hollinrake MP	1406
+464	Thornbury and Yate	E14000994	Luke Hall MP	1506
+465	Thurrock	E14000995	Jackie Doyle-Price MP	1298
+466	Tiverton and Honiton	E14000996	Richard Foord MP	1239
+467	Tonbridge and Malling	E14000997	Rt Hon Tom Tugendhat MP	1620
+468	Tooting	E14000998	Dr Rosena Allin-Khan MP	3399
+469	Torbay	E14000999	Kevin Foster MP	1211
+470	Torridge and West Devon	E14001000	Rt Hon Sir Geoffrey Cox KC MP	1302
+471	Totnes	E14001001	Anthony Mangnall MP	1442
+472	Tottenham	E14001002	Rt Hon David Lammy MP	2439
+473	Truro and Falmouth	E14001003	Cherilyn Mackrory MP	1699
+474	Tunbridge Wells	E14001004	Rt Hon Greg Clark MP	2115
+475	Twickenham	E14001005	Munira Wilson MP	3392
+476	Tynemouth	E14001006	Rt Hon Sir Alan Campbell MP	2365
+477	Uxbridge and South Ruislip	E14001007		1478
+478	Vauxhall	E14001008	Florence Eshalomi MP	3160
+479	Wakefield	E14001009	Simon Lightwood MP	1565
+480	Wallasey	E14001010	Dame Angela Eagle MP	2714
+481	Walsall North	E14001011	Eddie Hughes MP	800
+482	Walsall South	E14001012	Rt Hon Valerie Vaz MP	1030
+483	Walthamstow	E14001013	Stella Creasy MP	2979
+484	Wansbeck	E14001014	Ian Lavery MP	1108
+485	Wantage	E14001015	David Johnston MP	2221
+486	Warley	E14001016	Rt Hon John Spellar MP	1182
+487	Warrington North	E14001017	Charlotte Nichols MP	2109
+488	Warrington South	E14001018	Andy Carter MP	3007
+489	Warwick and Leamington	E14001019	Matt Western MP	2273
+490	Washington and Sunderland West	E14001020	Mrs Sharon Hodgson MP	1286
+491	Watford	E14001021	Dean Russell MP	1972
+492	Waveney	E14001022	Peter Aldous MP	1087
+493	Wealden	E14001023	Ms Nusrat Ghani MP	1625
+494	Weaver Vale	E14001024	Mike Amesbury MP	2182
+495	Wellingborough	E14001025	Mr Peter Bone MP	1357
+496	Wells	E14001026	Rt Hon James Heappey MP	1700
+497	Welwyn Hatfield	E14001027	Rt Hon Grant Shapps MP	1818
+498	Wentworth and Dearne	E14001028	Rt Hon John Healey MP	1204
+499	West Bromwich East	E14001029	Nicola Richards MP	794
+500	West Bromwich West	E14001030	Shaun Bailey MP	744
+501	West Dorset	E14001031	Chris Loder MP	1799
+502	West Ham	E14001032	Ms Lyn Brown MP	2005
+503	West Lancashire	E14001033	Ashley Dalton MP	2347
+504	West Suffolk	E14001034	Rt Hon Matt Hancock MP	1299
+505	West Worcestershire	E14001035	Harriett Baldwin MP	1471
+506	Westminster North	E14001036	Ms Karen Buck MP	1606
+507	Westmorland and Lonsdale	E14001037	Tim Farron MP	1555
+508	Weston-super-Mare	E14001038	John Penrose MP	1681
+509	Wigan	E14001039	Lisa Nandy MP	1731
+510	Wimbledon	E14001040	Stephen Hammond MP	2540
+511	Winchester	E14001041	Steve Brine MP	2232
+512	Windsor	E14001042	Adam Afriyie MP	1739
+513	Wirral South	E14001043	Alison McGovern MP	2115
+514	Wirral West	E14001044	Margaret Greenwood MP	2089
+515	Witham	E14001045	Rt Hon Priti Patel MP	1275
+516	Witney	E14001046	Robert Courts MP	2030
+517	Woking	E14001047	Mr Jonathan Lord MP	1889
+518	Wokingham	E14001048	Rt Hon John Redwood MP	2154
+519	Wolverhampton North East	E14001049	Jane Stevenson MP	850
+520	Wolverhampton South East	E14001050	Rt Hon Pat McFadden MP	766
+521	Wolverhampton South West	E14001051	Stuart Anderson MP	1212
+522	Worcester	E14001052	Mr Robin Walker MP	1694
+523	Workington	E14001053	Mark Jenkinson MP	1339
+524	Worsley and Eccles South	E14001054	Barbara Keeley MP	2707
+525	Worthing West	E14001055	Sir Peter Bottomley MP	1494
+526	Wycombe	E14001056	Mr Steve Baker MP	1799
+527	Wyre and Preston North	E14001057	Rt Hon Ben Wallace MP	1722
+528	Wyre Forest	E14001058	Mark Garnier MP	1223
+529	Wythenshawe and Sale East	E14001059	Mike Kane MP	3887
+530	Yeovil	E14001060	Mr Marcus Fysh MP	1268
+531	York Central	E14001061	Rachael Maskell MP	2836
+532	York Outer	E14001062	Julian Sturdy MP	2089
+533	Belfast East	N06000001	Gavin Robinson MP	888
+534	Belfast North	N06000002	John Finucane MP	903
+535	Belfast South	N06000003	Claire Hanna MP	1516
+536	Belfast West	N06000004	Paul Maskey MP	795
+537	East Antrim	N06000005	Rt Hon Sammy Wilson MP	559
+538	East Londonderry	N06000006	Mr Gregory Campbell MP	583
+539	Fermanagh and South Tyrone	N06000007	Michelle Gildernew MP	552
+540	Foyle	N06000008	Colum Eastwood MP	946
+541	Lagan Valley	N06000009	Rt Hon Sir Jeffrey M Donaldson MP	818
+542	Mid Ulster	N06000010	Francie Molloy MP	420
+543	Newry and Armagh	N06000011	Mickey Brady MP	663
+544	North Antrim	N06000012	Ian Paisley MP	567
+545	North Down	N06000013	Stephen Farry MP	749
+546	South Antrim	N06000014	Paul Girvan MP	701
+547	South Down	N06000015	Chris Hazzard MP	786
+548	Strangford	N06000016	Jim Shannon MP	596
+549	Upper Bann	N06000017	Carla Lockhart MP	796
+550	West Tyrone	N06000018	Órfhlaith Begley MP	505
+551	Aberdeen North	S14000001	Kirsty Blackman MP	1114
+552	Aberdeen South	S14000002	Stephen Flynn MP	1250
+553	Airdrie and Shotts	S14000003	Ms Anum Qaisar MP	1226
+554	Angus	S14000004	Dave Doogan MP	813
+555	Argyll and Bute	S14000005	Brendan O'Hara MP	1214
+556	Ayr, Carrick and Cumnock	S14000006	Allan Dorans MP	1159
+557	Banff and Buchan	S14000007	David Duguid MP	667
+558	Berwickshire, Roxburgh and Selkirk	S14000008	John Lamont MP	1138
+559	Caithness, Sutherland and Easter Ross	S14000009	Jamie Stone MP	666
+560	Central Ayrshire	S14000010	Dr Philippa Whitford MP	1082
+561	Coatbridge, Chryston and Bellshill	S14000011	Steven Bonnar MP	1542
+562	Cumbernauld, Kilsyth and Kirkintilloch East	S14000012	Stuart C McDonald MP	1572
+563	Dumfries and Galloway	S14000013	Rt Hon Alister Jack MP	980
+564	Dumfriesshire, Clydesdale and Tweeddale	S14000014	Rt Hon David Mundell MP	1081
+565	Dundee East	S14000015	Rt Hon Stewart Hosie MP	1185
+566	Dundee West	S14000016	Chris Law MP	1486
+567	Dunfermline and West Fife	S14000017	Douglas Chapman MP	1725
+568	East Dunbartonshire	S14000018	Amy Callaghan MP	1819
+569	East Kilbride, Strathaven and Lesmahagow	S14000019	Dr Lisa Cameron MP	1804
+570	East Lothian	S14000020	Kenny MacAskill MP	1829
+571	East Renfrewshire	S14000021	Kirsten Oswald MP	1856
+572	Edinburgh East	S14000022	Tommy Sheppard MP	2322
+573	Edinburgh North and Leith	S14000023	Deidre Brock MP	2852
+574	Edinburgh South	S14000024	Ian Murray MP	2115
+575	Edinburgh South West	S14000025	Joanna Cherry KC MP	2056
+576	Edinburgh West	S14000026	Christine Jardine MP	1849
+577	Na h-Eileanan an Iar	S14000027	Angus Brendan MacNeil MP	413
+578	Falkirk	S14000028	John McNally MP	1832
+579	Glasgow Central	S14000029	Alison Thewliss MP	1965
+580	Glasgow East	S14000030	David Linden MP	1220
+581	Glasgow North	S14000031	Patrick Grady MP	1867
+582	Glasgow North East	S14000032	Anne McLaughlin MP	1192
+583	Glasgow North West	S14000033	Carol Monaghan MP	1769
+584	Glasgow South	S14000034	Stewart Malcolm McDonald MP	2108
+585	Glasgow South West	S14000035	Chris Stephens MP	1322
+586	Glenrothes	S14000036	Peter Grant MP	781
+587	Gordon	S14000037	Richard Thomson MP	1042
+588	Inverclyde	S14000038	Ronnie Cowan MP	1403
+589	Inverness, Nairn, Badenoch and Strathspey	S14000039	Drew Hendry MP	1191
+590	Kilmarnock and Loudoun	S14000040	Alan Brown MP	1084
+591	Kirkcaldy and Cowdenbeath	S14000041	Neale Hanvey MP	1093
+592	Lanark and Hamilton East	S14000042	Angela Crawley MP	1409
+593	Linlithgow and East Falkirk	S14000043	Martyn Day MP	1839
+594	Livingston	S14000044	Hannah Bardell MP	1978
+595	Midlothian	S14000045	Owen Thompson MP	1455
+596	Moray	S14000046	Douglas Ross MP	854
+597	Motherwell and Wishaw	S14000047	Marion Fellows MP	1219
+598	North Ayrshire and Arran	S14000048	Patricia Gibson MP	1150
+599	North East Fife	S14000049	Wendy Chamberlain MP	1104
+600	Ochil and South Perthshire	S14000050	John Nicolson MP	1197
+601	Orkney and Shetland	S14000051	Rt Hon Alistair Carmichael MP	614
+602	Paisley and Renfrewshire North	S14000052	Gavin Newlands MP	1485
+603	Paisley and Renfrewshire South	S14000053	Mhairi Black MP	1509
+604	Perth and North Perthshire	S14000054	Pete Wishart MP	1044
+605	Ross, Skye and Lochaber	S14000055	Rt Hon Ian Blackford MP	893
+606	Rutherglen and Hamilton West	S14000056	Margaret Ferrier MP	1651
+607	Stirling	S14000057	Alyn Smith MP	1669
+608	West Aberdeenshire and Kincardine	S14000058	Andrew Bowie MP	1228
+609	West Dunbartonshire	S14000059	Martin Docherty-Hughes MP	1842
+610	Ynys Môn	W07000041	Virginia Crosbie MP	844
+611	Delyn	W07000042	Mr Rob Roberts MP	1122
+612	Alyn and Deeside	W07000043	Rt Hon Mark Tami MP	1406
+613	Wrexham	W07000044	Sarah Atherton MP	987
+614	Llanelli	W07000045	Dame Nia Griffith MP	773
+615	Gower	W07000046	Tonia Antoniazzi MP	1028
+616	Swansea West	W07000047	Geraint Davies MP	1173
+617	Swansea East	W07000048	Carolyn Harris MP	767
+618	Aberavon	W07000049	Stephen Kinnock MP	697
+619	Cardiff Central	W07000050	Jo Stevens MP	1755
+620	Cardiff North	W07000051	Anna McMorrin MP	1823
+621	Rhondda	W07000052	Sir Chris Bryant MP	694
+622	Torfaen	W07000053	Rt Hon Nick Thomas-Symonds MP	887
+623	Monmouth	W07000054	Rt Hon David T C Davies MP	1387
+624	Newport East	W07000055	Jessica Morden MP	955
+625	Newport West	W07000056	Ruth Jones MP	1267
+626	Arfon	W07000057	Hywel Williams MP	979
+627	Aberconwy	W07000058	Robin Millar MP	857
+628	Clwyd West	W07000059	Rt Hon David Jones MP	1081
+629	Vale of Clwyd	W07000060	Dr James Davies MP	965
+630	Dwyfor Meirionnydd	W07000061	Rt Hon Liz Saville Roberts MP	545
+631	Clwyd South	W07000062	Simon Baynes MP	1008
+632	Montgomeryshire	W07000063	Craig Williams MP	753
+633	Ceredigion	W07000064	Ben Lake MP	960
+634	Preseli Pembrokeshire	W07000065	Rt Hon Stephen Crabb MP	818
+635	Carmarthen West and South Pembrokeshire	W07000066	Simon Hart MP	787
+636	Carmarthen East and Dinefwr	W07000067	Jonathan Edwards MP	684
+637	Brecon and Radnorshire	W07000068	Fay Jones MP	966
+638	Neath	W07000069	Christina Rees MP	747
+639	Cynon Valley	W07000070	Beth Winter MP	703
+640	Merthyr Tydfil and Rhymney	W07000071	Gerald Jones MP	722
+641	Blaenau Gwent	W07000072	Nick Smith MP	713
+642	Bridgend	W07000073	Dr Jamie Wallis MP	819
+643	Ogmore	W07000074	Chris Elmore MP	718
+644	Pontypridd	W07000075	Alex Davies-Jones MP	1059
+645	Caerphilly	W07000076	Wayne David MP	1041
+646	Islwyn	W07000077	Chris Evans MP	749
+647	Vale of Glamorgan	W07000078	Rt Hon Alun Cairns MP	1382
+648	Cardiff West	W07000079	Kevin Brennan MP	1733
+649	Cardiff South and Penarth	W07000080	Stephen Doughty MP	1947
