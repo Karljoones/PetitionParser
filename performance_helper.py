@@ -8,5 +8,7 @@ def generate_report_performance_check(func):
         func(df, output_directory, output_filename)
 
         print(f"Finished {func.__name__}...")
-        print(f"Time elapsed: {time.time() - start_time} seconds")
+
+        elapsed_time = time.time() - start_time
+        print(f"Time elapsed: {'%.2f' % elapsed_time} seconds")
     return wrapper
