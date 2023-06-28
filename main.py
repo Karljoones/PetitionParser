@@ -34,7 +34,6 @@ if not os.path.isdir(instance_directory):
 
 ## Signatures by country
 signatures_by_country = pd.DataFrame(df.get("data").get("attributes").get("signatures_by_country"))
-
 generate_csv(signatures_by_country, instance_directory, "signatures_by_country.csv")
 
 # Analysis
@@ -78,14 +77,12 @@ del signatures_by_country
 
 ## Signatures by constituency
 signatures_by_constituency = pd.DataFrame(df.get("data").get("attributes").get("signatures_by_constituency"))
-
 generate_csv(signatures_by_constituency, instance_directory, "signatures_by_constituency.csv")
 
 del signatures_by_constituency
 
 # Signatures by region
 signatures_by_region = pd.DataFrame(df.get("data").get("attributes").get("signatures_by_region"))
-
 generate_csv(signatures_by_region, instance_directory, "signatures_by_region.csv")
 
 # Analysis
@@ -127,6 +124,8 @@ data_dump = {
 
 with open(instance_directory + "/data_dump.json", "w") as data_dump_file:
     json.dump(data_dump, data_dump_file, indent=4)
+
+data_dump_file.close()
 
 # Generate HTML report using all data available
 generate_report(df, output_directory + "/" + str(df.get("data").get("id")), 'report.html')
