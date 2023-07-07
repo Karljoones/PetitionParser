@@ -29,6 +29,15 @@ def format_number(number: int):
 def format_percentage(number: float):
     return f"{number}%"
 
+def calculate_percentage(number: int, total: int, format: bool = True):
+    if (format == True):
+        return format_percentage(round((number / total) * 100, 2))
+    else:
+        return round((number / total) * 100, 2)
+    
+def convert_to_table(content: str):
+    return f"<table>{content}</table>"
+
 def convert_to_accordion(title: str, content: str):
     return f"<button class='accordion'>{title}</button><div class='panel'>{content}</div>"
 
@@ -52,7 +61,7 @@ def generate_report(df, output_directory, output_filename):
     if (df.get('data').get('attributes').get('debate') != None):
         output_string += generate_debate_table(df.get('data').get('attributes').get('debate'))
 
-    output_string += str(generate_signatures_table(df.get('data').get('id')))
+    output_string += str(generate_signatures_tables(df.get('data').get('id')))
 
     output_string += "\n\n<p>All data has been gathered from the <a href=\"https://petition.parliament.uk/\" target=\"_blank\">UK Government and Parliament Petition website</a>.</p>"
     output_string += f"<p>All raw data can be found <a href={df.get('links').get('self')} target=\"_blank\">here</a>.</p>"
@@ -69,8 +78,7 @@ def generate_report(df, output_directory, output_filename):
 
 
 def generate_overview_table(attributes):
-    overview_table_string = "<table>"
-    overview_table_string += generate_two_column_table_row("Petition ID", attributes.get('id'))
+    overview_table_string = generate_two_column_table_row("Petition ID", attributes.get('id'))
     overview_table_string += generate_two_column_table_row("Signature count", format_number(attributes.get('signature_count')))
     overview_table_string += generate_two_column_table_row("State", attributes.get('state'))
     overview_table_string += generate_two_column_table_row("Created", attributes.get('created_at'))
@@ -84,65 +92,66 @@ def generate_overview_table(attributes):
     overview_table_string += generate_two_column_table_row("Moderation threshold reached", attributes.get('moderation_threshold_reached_at'))
     overview_table_string += generate_two_column_table_row("Response threshold reached", attributes.get('response_threshold_reached_at'))
     overview_table_string += generate_two_column_table_row("Creator", attributes.get('creator_name'))
-    overview_table_string += "</table>"
-
-    return convert_to_accordion("Overview", overview_table_string)
+    
+    return convert_to_accordion("Overview", convert_to_table(overview_table_string))
 
 
 def generate_debate_table(debate_data):
-    debate_table_string = "<table>"
-    debate_table_string += generate_two_column_table_row("Debate date", debate_data.get('debated_on'))
+    debate_table_string = generate_two_column_table_row("Debate date", debate_data.get('debated_on'))
     debate_table_string += generate_two_column_table_row("Debate transcript", f"<a href=\"{debate_data.get('transcript_url')}\">Transcript</a>")
     debate_table_string += generate_two_column_table_row("Video", f"<a href=\"{debate_data.get('video_url')}\">Video URL</a>")
-    debate_table_string += "</table>"
+    
+    return convert_to_accordion("Debate", convert_to_table(debate_table_string))
 
-    return convert_to_accordion("Debate", debate_table_string)
 
-
-def generate_signatures_table(petition_id):
+def generate_signatures_tables(petition_id):
     with open(f"./output/{petition_id}/data_dump.json", "r") as petition_file:
         petition_data = json.load(petition_file)
 
     total_signatures = petition_data['total_signatures']
-    
-    signatures_table = ""
 
-    signatures_table_total = "<table>"
-    signatures_table_total += generate_three_column_table_header("Region", "Signatures", "% of total")
+    signatures_table_total = generate_three_column_table_header("Region", "Signatures", "% of total")
     signatures_table_total += generate_three_column_table_row("Inside UK", format_number(petition_data['totals']['inside_uk']), format_percentage(petition_data['totals']['inside_uk_percent']))
     signatures_table_total += generate_three_column_table_row("Outside UK", format_number(petition_data['totals']['outside_uk']), format_percentage(petition_data['totals']['outside_uk_percent']))
     signatures_table_total += generate_three_column_table_row("Total", format_number(total_signatures), "100%")
-    signatures_table_total += "</table>"
 
-    signatures_table += convert_to_accordion("Signatures (Total)", signatures_table_total)
+    signatures_table = convert_to_accordion("Signatures (Total)", convert_to_table(signatures_table_total))
 
-    signatures_table_global = "<table>"
-    signatures_table_global += generate_three_column_table_header("Region", "Signatures", "% of total")
-    signatures_table_global += generate_three_column_table_row("Africa", format_number(petition_data['totals']['global']['africa']), format_percentage(petition_data['totals']['global']['africa_percent']))
-    signatures_table_global += generate_three_column_table_row("Asia", format_number(petition_data['totals']['global']['asia']), format_percentage(petition_data['totals']['global']['asia_percent']))
-    signatures_table_global += generate_three_column_table_row("Carribean", format_number(petition_data['totals']['global']['carribean']), format_percentage(petition_data['totals']['global']['carribean_percent']))
-    signatures_table_global += generate_three_column_table_row("Central America", format_number(petition_data['totals']['global']['central_america']), format_percentage(petition_data['totals']['global']['central_america_percent']))
-    signatures_table_global += generate_three_column_table_row("Europe", format_number(petition_data['totals']['global']['europe']), format_percentage(petition_data['totals']['global']['europe_percent']))
-    signatures_table_global += generate_three_column_table_row("North America", format_number(petition_data['totals']['global']['north_america']), format_percentage(petition_data['totals']['global']['north_america_percent']))
-    signatures_table_global += generate_three_column_table_row("Oceania", format_number(petition_data['totals']['global']['oceania']), format_percentage(petition_data['totals']['global']['oceania_percent']))
-    signatures_table_global += generate_three_column_table_row("South America", format_number(petition_data['totals']['global']['south_america']), format_percentage(petition_data['totals']['global']['south_america_percent']))
-    signatures_table_global += generate_three_column_table_row("Other/Unknown", format_number(petition_data['totals']['global']['unknown']), format_percentage(petition_data['totals']['global']['unknown_percent']))
-    signatures_table_global += generate_three_column_table_row("Total", format_number(total_signatures), "100%")
+    # Global Signatures
+    signatures_table_global = generate_three_column_table_header("Region", "Signatures", "% of total")
     
-    signatures_table_global += "</table>"
+    for signature_global in petition_data['totals']['signatures_global']:
+        signatures_table_global += generate_three_column_table_row(signature_global['title'], format_number(signature_global['total']), format_percentage(signature_global['percent']))
 
-    signatures_table += convert_to_accordion("Signatures (Global)", signatures_table_global)
+    signatures_table_global += generate_three_column_table_row("Total", format_number(total_signatures), "100%")
 
-    signatures_table_uk = "<table>"
-    signatures_table_uk += generate_three_column_table_header("Region", "Signatures", "% of total")
-    signatures_table_uk += generate_three_column_table_row("England", format_number(petition_data['totals']['uk']['england']), format_percentage(petition_data['totals']['uk']['england_percent']))
-    signatures_table_uk += generate_three_column_table_row("Northern Ireland", format_number(petition_data['totals']['uk']['ni']), format_percentage(petition_data['totals']['uk']['ni_percent']))
-    signatures_table_uk += generate_three_column_table_row("Wales", format_number(petition_data['totals']['uk']['wales']), format_percentage(petition_data['totals']['uk']['wales_percent']))
-    signatures_table_uk += generate_three_column_table_row("Scotland", format_number(petition_data['totals']['uk']['scotland']), format_percentage(petition_data['totals']['uk']['scotland_percent']))
+    signatures_table += convert_to_accordion("Signatures (Global)", convert_to_table(signatures_table_global))
+
+    # UK Signatures
+    signatures_table_uk = generate_three_column_table_header("Region", "Signatures", "% of total")
+    
+    for signature_uk in petition_data['totals']['signatures_uk']:
+        signatures_table_uk += generate_three_column_table_row(signature_uk['title'], format_number(signature_uk['total']), format_percentage(signature_uk['percent']))
+
     signatures_table_uk += f"<tr><td colspan='3'><i>*Data may not add up to 100% due to how petition.parliament.uk categorises data</i></td></tr>"
-    signatures_table_uk += "</table>"
 
-    signatures_table += convert_to_accordion("Signatures (UK)", signatures_table_uk)
+    signatures_table += convert_to_accordion("Signatures (UK)", convert_to_table(signatures_table_uk))
+
+    # Signatures by Country
+    signatures_table_country = generate_two_column_table_header("Country", "Signatures")
+
+    for country in petition_data['totals']['signatures_by_country']:
+        signatures_table_country += generate_two_column_table_row(country['name'], format_number(country['signature_count']))
+
+    signatures_table += convert_to_accordion("Signatures (Countries)", convert_to_table(signatures_table_country))
+
+    # Signatures by Constituency
+    signatures_table_constituency = generate_two_column_table_header("Constituency", "Signatures")
+
+    for constituency in petition_data['totals']['signatures_by_constituency']:
+        signatures_table_constituency += generate_two_column_table_row(constituency['name'], format_number(constituency['signature_count']))
+
+    signatures_table += convert_to_accordion("Signatures (Constituency)", convert_to_table(signatures_table_constituency))
 
     return signatures_table
 

@@ -1,0 +1,136 @@
+body {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: white;
+        background-color: black;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        max-width: 95%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {
+        max-width: 95%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {
+        max-width: 85%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {
+        max-width: 60%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body {
+        max-width: 50%;
+    }
+}
+
+table {
+    width: 100%;
+}
+
+.panel table {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+table,
+td,
+tr,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+@media(prefers-color-scheme:dark) {
+
+    table,
+    td,
+    tr,
+    th {
+        border: 1px solid white;
+    }
+}
+
+td {
+    padding: 4px 8px;
+    width: 50%
+}
+
+td.third {
+    width: 33%;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 1rem;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+@media(prefers-color-scheme:dark) {
+    .accordion {
+        background-color: rgb(46, 46, 46);
+        color: white;
+    }
+
+    .active,
+    .accordion:hover {
+        background-color: rgb(66, 66, 66);
+    }
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+}

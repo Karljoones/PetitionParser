@@ -11,11 +11,13 @@ locale.setlocale(locale.LC_ALL, '')
 petition_download_link = ""
 petition_id = 0
 
-while petition_id == 0 or petition_id.strip() == "":
+while True:
     petition_id = input("Petition ID: ")
 
     if petition_id == 0 or petition_id == "":
         print("Invalid petition ID")
+    else:
+        break
 
 petition_download_link = f"https://petition.parliament.uk/petitions/{str(petition_id)}.json"
 
@@ -113,39 +115,30 @@ data_dump = {
         "inside_uk_percent": round(((total_signatures - total_signatures_outside_uk) / total_signatures) * 100, 2),
         "outside_uk": total_signatures_outside_uk,
         "outside_uk_percent": round((total_signatures_outside_uk / total_signatures) * 100, 2),
-        "uk": {
-            "england": total_signatures_england,
-            "england_percent": round((total_signatures_england / total_signatures) * 100, 2),
-            "scotland": total_signatures_scotland,
-            "scotland_percent": round((total_signatures_scotland / total_signatures) * 100, 2),
-            "wales": total_signatures_wales,
-            "wales_percent": round((total_signatures_wales / total_signatures) * 100, 2),
-            "ni": total_signatures_ni,
-            "ni_percent": round((total_signatures_ni / total_signatures) * 100, 2),
-        },
-        "global": {
-            "africa": total_region_africa,
-            "africa_percent": round((total_region_africa / total_signatures) * 100, 2),
-            "asia": total_region_asia,
-            "asia_percent": round((total_region_asia / total_signatures) * 100, 2),
-            "carribean": total_region_carribean,
-            "carribean_percent": round((total_region_carribean / total_signatures) * 100, 2),
-            "central_america": total_region_central_america,
-            "central_america_percent": round((total_region_central_america / total_signatures) * 100, 2),
-            "europe": total_region_europe,
-            "europe_percent": round((total_region_europe / total_signatures) * 100, 2),
-            "north_america": total_region_north_america,
-            "north_america_percent": round((total_region_north_america / total_signatures) * 100, 2),
-            "oceania": total_region_oceania,
-            "oceania_percent": round((total_region_oceania / total_signatures) * 100, 2),
-            "south_america": total_region_south_america,
-            "south_america_percent": round((total_region_south_america / total_signatures) * 100, 2),
-            "unknown": total_region_unknown,
-            "unknown_percent": round((total_region_unknown / total_signatures) * 100, 2),
-        }
+        "signatures_uk": [
+            {"title": "England", "total": total_signatures_england, "percent": round((total_signatures_england / total_signatures) * 100, 2)},
+            {"title": "Scotland", "total": total_signatures_scotland, "percent": round((total_signatures_scotland / total_signatures) * 100, 2)},
+            {"title": "Wales", "total": total_signatures_wales, "percent": round((total_signatures_wales / total_signatures) * 100, 2)},
+            {"title": "Northern Ireland", "total": total_signatures_ni, "percent": round((total_signatures_ni / total_signatures) * 100, 2)},
+        ],
+        "signatures_global": [
+            {"title": "Africa", "total": total_region_africa, "percent": round((total_region_africa / total_signatures) * 100, 2)},
+            {"title": "Asia", "total": total_region_asia, "percent": round((total_region_asia / total_signatures) * 100, 2)},
+            {"title": "Carribean", "total": total_region_carribean, "percent": round((total_region_carribean / total_signatures) * 100, 2)},
+            {"title": "Central America", "total": total_region_central_america, "percent": round((total_region_central_america / total_signatures) * 100, 2)},
+            {"title": "Europe", "total": total_region_europe, "percent": round((total_region_europe / total_signatures) * 100, 2)},
+            {"title": "North America", "total": total_region_north_america, "percent": round((total_region_north_america / total_signatures) * 100, 2)},
+            {"title": "Oceania", "total": total_region_oceania, "percent": round((total_region_oceania / total_signatures) * 100, 2)},
+            {"title": "South America", "total": total_region_south_america, "percent": round((total_region_south_america / total_signatures) * 100, 2)},
+            {"title": "Unknown", "total": total_region_unknown, "percent": round((total_region_unknown / total_signatures) * 100, 2)},
+        ],
+        "signatures_by_country": df.get('data').get('attributes').get('signatures_by_country'),
+        "signatures_by_constituency": df.get('data').get('attributes').get('signatures_by_constituency'),
+        "signatures_by_region": df.get('data').get('attributes').get('signatures_by_region'),
     }
 }
 
+# Create a data dump json file to be used by `html_generator.py`
 with open(instance_directory + "/data_dump.json", "w") as data_dump_file:
     json.dump(data_dump, data_dump_file, indent=4)
 
@@ -154,4 +147,5 @@ data_dump_file.close()
 # Generate HTML report using all data available
 generate_report(df, output_directory + "/" + str(df.get("data").get("id")), 'report.html')
 
-print("Output created at: /output/" + str(df.get("data").get("id")))
+# Success message
+print(f"Output created at: {instance_directory}")

@@ -10,5 +10,5 @@ def generate_report_performance_check(func):
         print(f"Finished {func.__name__}...")
 
         elapsed_time = time.time() - start_time
-        print(f"Time elapsed: {'%.2f' % elapsed_time} seconds")
+        print(f"Time elapsed: {'%.3f' % elapsed_time} seconds")
     return wrapper
