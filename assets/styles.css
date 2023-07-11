@@ -49,6 +49,27 @@ body {
     }
 }
 
+a,
+a:visited,
+a:active,
+a:hover,
+a:focus,
+a:link {
+    color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+
+    a,
+    a:visited,
+    a:active,
+    a:hover,
+    a:focus,
+    a:link {
+        color: white;
+    }
+}
+
 table {
     width: 100%;
 }

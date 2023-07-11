@@ -30,7 +30,7 @@ class HTMLGenerator:
         output_string += self.generate_overview_table(self.petition_data.get('data').get('attributes'), self.petition_data.get('data').get('id'))
 
         if (self.petition_data.get('data').get('attributes').get('debate') != None):
-            output_string += self.generate_debate_table(self.petition_data.get('data').get('attributes').get('debate'))
+            output_string += self.generate_debate_report(self.petition_data.get('data').get('attributes').get('debate'), self.petition_data.get('data').get('attributes').get('government_response'))
 
         output_string += str(self.generate_signatures_tables(self.petition_data.get('data').get('id')))
 
@@ -78,12 +78,19 @@ class HTMLGenerator:
     | @param attributes: The debate details of the petition.
     | @return: The debate table as a string of HTML.
     '''
-    def generate_debate_table(self, debate_data: any) -> str:
+    def generate_debate_report(self, debate_data: any, government_response: any) -> str:
         debate_table_string = generate_two_column_table_row("Debate date", debate_data.get('debated_on'))
         debate_table_string += generate_two_column_table_row("Debate transcript", f"<a href=\"{debate_data.get('transcript_url')}\">Transcript</a>")
         debate_table_string += generate_two_column_table_row("Video", f"<a href=\"{debate_data.get('video_url')}\">Video URL</a>")
+        debate_table_string = convert_to_table(debate_table_string)
+
+        if (government_response != None):
+            debate_table_string += f"<h3>Government Response</h3>"
+            debate_table_string += f"<p>Response date: {government_response.get('responded_on')}</p>"
+            debate_table_string += f"<p>{government_response.get('summary')}</p>"
+            debate_table_string += f"<p style=\"white-space: pre-line\">{government_response.get('details')}</p>"
     
-        return convert_to_accordion("Debate", convert_to_table(debate_table_string))
+        return convert_to_accordion("Debate", debate_table_string)
     
     '''
     | Function: generate_signatures_tables

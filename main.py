@@ -72,8 +72,6 @@ def generate_initial_values(df: any) -> None:
 def generate_signatures_by_country(signatures_by_country: any) -> None:
     if signatures_by_country == None:
         return
-    
-    # generate_csv(signatures_by_country, OUTPUT_DIRECTORY + f"/{str(petition_id)}", "signatures_by_country.csv")
 
     total_signatures_outside_uk = 0
     total_region_africa = 0
@@ -132,8 +130,6 @@ def generate_signatures_by_uk_region(signatures_by_uk_region: any) -> None:
     if signatures_by_uk_region == None:
         return
 
-    # generate_csv(signatures_by_uk_region, OUTPUT_DIRECTORY + "/" + str(petition_id), "signatures_by_uk_region.csv")
-
     total_signatures_england = 0
     total_signatures_scotland = 0
     total_signatures_wales = 0
@@ -149,14 +145,14 @@ def generate_signatures_by_uk_region(signatures_by_uk_region: any) -> None:
         elif region.get("name") == "Northern Ireland":
             total_signatures_ni += region.get("signature_count")
 
-    signatures = [
+    signatures_by_uk_region = [
         {"title": "England", "total": total_signatures_england, "percent": round((total_signatures_england / data_dump['total_signatures']) * 100, 2)},
         {"title": "Scotland", "total": total_signatures_scotland, "percent": round((total_signatures_scotland / data_dump['total_signatures']) * 100, 2)},
         {"title": "Wales", "total": total_signatures_wales, "percent": round((total_signatures_wales / data_dump['total_signatures']) * 100, 2)},
         {"title": "Northern Ireland", "total": total_signatures_ni, "percent": round((total_signatures_ni / data_dump['total_signatures']) * 100, 2)}
     ]
 
-    data_dump["totals"]["signatures_by_uk_region"] = sorted(signatures, key=lambda k: k['total'], reverse=True)
+    data_dump["totals"]["signatures_by_uk_region"] = sorted(signatures_by_uk_region, key=lambda k: k['total'], reverse=True)
 
 def generate_additional_data_transfer(petition_data: any):
     data_dump["signatures_by_country"] = sorted(petition_data.get('data').get('attributes').get('signatures_by_country'), key=lambda k: k['signature_count'], reverse=True)
@@ -197,13 +193,15 @@ def main():
     generate_signatures_by_uk_region(petition_data.get("data").get("attributes").get("signatures_by_region"))
     generate_additional_data_transfer(petition_data)
 
+    # Generate data dump
     generate_data_dump(petition_id)
 
     # Generate HTML
     generator = HTMLGenerator(petition_id, petition_data, f"{OUTPUT_DIRECTORY}/{petition_id}", "report.html")
     generator.generate_report()
 
-    print(f"Output created at: {OUTPUT_DIRECTORY}/{petition_id}")
+    # Success message
+    print(f"Output created at: {generator.output_directory}")
 
 if __name__ == "__main__":
     main()
